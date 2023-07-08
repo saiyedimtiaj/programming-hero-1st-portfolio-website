@@ -88,6 +88,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about{
     padding: 130px;
     background-color: #fff8f3;
@@ -120,4 +123,64 @@ main{
 .about-info h4{
     font-size: 23px;
     color: #474747;
+}
+.desc{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill img{
+    margin-bottom: 10px;
+}
+.skill p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #474747;
+}
+.skill h4{
+    margin-top: 10px;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.education{
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+.resume-item h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 30px;
+}
+.resume-item h3{
+    color: #757575;
+    margin-top: 10px;
+}
+.resume-item p{
+    color: #757575;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.download-btn{
+    text-align: center;
+    margin-top: 30px;
 }
